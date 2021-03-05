@@ -4,5 +4,8 @@ build:
 clean:
 	swift package clean
 
+test:
+	swift test
+
 xcodeproj:
 	swift package generate-xcodeproj
